@@ -15,6 +15,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import Com.OrangeHRM.Configurations.ReadConfiguration;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import net.bytebuddy.utility.RandomString;
 
 public class OrangeHRM_BaseClass {
@@ -38,8 +39,8 @@ public class OrangeHRM_BaseClass {
 //		System.setProperty("webdriver.gecko.driver","C:\\Drivers\\geckodriver31.exe");
 //		driver=new FirefoxDriver();
 //		System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
-		System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
- 		driver=new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
  		driver.manage().window().maximize();
  		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");

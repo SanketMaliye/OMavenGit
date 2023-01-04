@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T00:30:27 IST" name="Suite" finished-at="2023-01-03T00:31:20 IST" duration-ms="52995">
+  <suite started-at="2023-01-05T00:03:19 IST" name="Suite" finished-at="2023-01-05T00:03:55 IST" duration-ms="35351">
     <groups>
     </groups>
-    <test started-at="2023-01-03T00:30:27 IST" name="Test" finished-at="2023-01-03T00:31:20 IST" duration-ms="52995">
+    <test started-at="2023-01-05T00:03:19 IST" name="Test" finished-at="2023-01-05T00:03:55 IST" duration-ms="35351">
       <class name="Com.OrangeHRM.TestCases.TC_SignIn">
-        <test-method is-config="true" signature="Initiate()[pri:0, instance:Com.OrangeHRM.TestCases.TC_SignIn@25d250c6]" started-at="2023-01-03T00:30:27 IST" name="Initiate" finished-at="2023-01-03T00:31:01 IST" duration-ms="34145" status="PASS">
+        <test-method is-config="true" signature="Initiate()[pri:0, instance:Com.OrangeHRM.TestCases.TC_SignIn@747edf66]" started-at="2023-01-05T00:03:19 IST" name="Initiate" finished-at="2023-01-05T00:03:35 IST" duration-ms="15587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initiate -->
-        <test-method signature="SignInTest()[pri:0, instance:Com.OrangeHRM.TestCases.TC_SignIn@25d250c6]" started-at="2023-01-03T00:31:01 IST" name="SignInTest" finished-at="2023-01-03T00:31:10 IST" duration-ms="8582" status="PASS">
+        <test-method signature="SignInTest()[pri:0, instance:Com.OrangeHRM.TestCases.TC_SignIn@747edf66]" started-at="2023-01-05T00:03:35 IST" name="SignInTest" finished-at="2023-01-05T00:03:44 IST" duration-ms="8647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignInTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.TC_SignIn@25d250c6]" started-at="2023-01-03T00:31:10 IST" name="Teardown" finished-at="2023-01-03T00:31:20 IST" duration-ms="10205" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.TC_SignIn@747edf66]" started-at="2023-01-05T00:03:44 IST" name="Teardown" finished-at="2023-01-05T00:03:55 IST" duration-ms="11055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

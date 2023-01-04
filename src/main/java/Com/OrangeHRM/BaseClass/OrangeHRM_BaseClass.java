@@ -14,18 +14,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
- 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.bytebuddy.utility.RandomString;
 
 public class OrangeHRM_BaseClass {
-
- 
 	
 	public static WebDriver driver;
 	public static Logger log;
 	
- 
 	@BeforeMethod
 	public void Initiate() throws InterruptedException {
 		

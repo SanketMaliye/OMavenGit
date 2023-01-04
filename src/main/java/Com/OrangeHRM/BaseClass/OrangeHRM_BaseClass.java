@@ -14,22 +14,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import Com.OrangeHRM.Configurations.ReadConfiguration;
+ 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.bytebuddy.utility.RandomString;
 
 public class OrangeHRM_BaseClass {
 
-	ReadConfiguration readconfig=new ReadConfiguration();
-	String URL=readconfig.getBaseUrl();
-	protected String PHONE=readconfig.getPhone();
-	protected String PWD=readconfig.getPassword();
-	String CHROMEPATH=readconfig.getChromePath();
+ 
 	
 	public static WebDriver driver;
 	public static Logger log;
 	
-	@SuppressWarnings("deprecation")
+ 
 	@BeforeMethod
 	public void Initiate() throws InterruptedException {
 		
